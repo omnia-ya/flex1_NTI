@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+}
+.container{
+	padding: 60px;
+	padding-top: 40px;
+	text-align: center;
+}
+.card{
+	background-color: white;
+	margin: auto;
+	width: 400px;
+	padding: 10px;
+	box-shadow: 0 0 100px rgb(41, 163, 240);
+	border-radius: 5px;
+}
+.card-contain{
+	display: flex;
+	justify-content: space-start;
+	padding: 5px;
+	border-bottom: 1px solid lightgray;
+
+}
+.card-contain:hover{
+	background-color: lightblue;
+
+}
+
+.card .card-contain img{
+	border-radius: 50%;
+	width: 100%;
+}
+img{
+	margin-right: 20px;
+	margin-left: 15px;
+}
+h4, h5{
+	color: gray;
+	text-align: left;
+}
+h4{
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+h5{
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: lighter;
+}
